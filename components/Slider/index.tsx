@@ -16,38 +16,24 @@ export default function Slider() {
   const continents = [
     {
       id: "1",
-      imageUrl: "../images/continents/europe.jpg",
+      imageUrl: "../images/continents/europe/banner.jpg",
       page: "/continents/europe",
       title: "Europa",
       description: "Este é o mais antigo continente.",
     },
     {
       id: "2",
-      imageUrl: "../images/continents/asia.jpg",
+      imageUrl: "../images/continents/asia/banner.jpg",
       page: "/continents/asia",
-      title: "Asia",
+      title: "Ásia",
       description: "Este é o maior continente.",
     },
     {
       id: "3",
-      imageUrl: "../images/continents/america.jpg",
+      imageUrl: "../images/continents/america/banner.jpg",
       page: "/continents/america",
       title: "América",
       description: "Possui a maior biodiversidade do planeta.",
-    },
-    {
-      id: "4",
-      imageUrl: "../images/continents/oceania.jpg",
-      page: "/continents/oceania",
-      title: "Oceania",
-      description: "O menor continente do planeta.",
-    },
-    {
-      id: "5",
-      imageUrl: "../images/continents/africa.jpg",
-      page: "/continents/africa",
-      title: "África",
-      description: "Possui o maior deserto do planeta.",
     },
   ];
 

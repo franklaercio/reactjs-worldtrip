@@ -10,7 +10,7 @@ import Slider from "../components/Slider";
 export default function Home() {
   return (
     <Flex direction="column" h="100vh">
-      <Header />
+      <Header isContinent={false} />
       <Banner />
       <Trips />
       <Separator />
