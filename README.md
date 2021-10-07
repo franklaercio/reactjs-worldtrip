@@ -1,5 +1,5 @@
 <h2 align="center"> 
-  :tomato: GoRestaurant
+  :airplane: Worldtrip
 </h1>
 
 <p align="center">
