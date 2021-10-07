@@ -14,7 +14,7 @@ export default function ImageTrip({ imgUrl, description }: ImageTripProps) {
       justifyContent="center"
     >
       <Image src={imgUrl} alt="cocktail" w={85} h={85} />
-      <Text fontSize="2xl" color="black.700">
+      <Text fontSize="2xl" color="black.700" fontWeight="bold">
         {description}
       </Text>
     </Stack>

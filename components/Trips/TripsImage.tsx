@@ -6,7 +6,7 @@ export default function TripsImage() {
     <Stack
       direction="row"
       w="full"
-      spacing={40}
+      spacing={20}
       alignItems="center"
       justifyContent="center"
     >

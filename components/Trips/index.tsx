@@ -9,7 +9,11 @@ export default function Trips() {
   });
 
   return (
-    <Flex m={[4, 10, 20]} alignItems="center" justifyContent="center">
+    <Flex
+      m={{ base: 4, md: 10, lg: 20 }}
+      alignItems="center"
+      justifyContent="center"
+    >
       {isWideVersion ? <TripsImage /> : <TripsText />}
     </Flex>
   );
